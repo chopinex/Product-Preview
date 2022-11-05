@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+
+main{
+    margin: 16vh auto;
+    width: 40%;
+    height: 60vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+}
+
+.prodPic{
+    background-image: url("../images/image-product-desktop.jpg");
+    width: 50%;
+    border-radius: 10px 0 0 10px;
+    background-size: cover;
+}
+
+.prodDesc{
+    width: 40%;
+    padding: 5%;
+    color: hsl(228, 12%, 48%);
+}
+
+.tipo-producto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+}
+
+h1{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 2.2rem;
+    color:  hsl(212, 21%, 14%);
+    font-weight: bold;
+    line-height: 0.9;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    line-height: 1.7;
+    margin: 4vh 0;
+}
+
+.pricing-box{
+    display: flex;
+    vertical-align: middle;
+    align-items:center;
+}
+
+.price{
+    font-family: 'Fraunces', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.old-price{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    font-size: 0.8rem;
+    margin-left: 5%;
+}
+
+.boton{
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 5% 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: hsl(158, 36%, 17%);
+}
+
+.boton img{
+    margin-right: 5%;
+}
